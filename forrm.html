@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widt
+    h=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #000000;"> 
+    <section style="text-align: center;">
+        <img src="C:\Users\Sunilgupta\Desktop\vs codes projects\logo.png" alt="University logo" width="50" height="50"/>
+    <h1 style="text-align:center;color:floralwhite">UNIVERSITY ADMISSION FORM</h1>
+    </section>
+
+    <form action="submission.html" method="POST">
+        <fieldset>
+            <legend style="color: floralwhite; text-align: center;">PERSONAL DETAILS</legend> 
+            <section class="name" style=" text-align: center">
+            <label for="name" style="color: floralwhite;">ENTER NAME:</label>
+            <input type="text" name="name" id="name"
+            STYLE="color:floralwhite; font-family:cursive;font-variant-caps: all-small-caps; font-weight: bold; font-size: 18
+
+            px; background-color: #AAAAAA;" required >
+        </section>
+        <br>
+        <section class="age" style="text-indent:0px; text-align: center" >
+            <label for="age" style="color: floralwhite;" >ENTER AGE:</label>
+            <input type="number" STYLE="color: #000000; font-family:cursive;font-variant-caps: all-small-caps; font-weight: bold; font-size: 18
+
+            px; background-color: #AAAAAA;"
+             required  name="age" id="age" min="18" step="1" >
+           
+        </section>
+        <br>
+        <section class="email" style=text-align:center> 
+            <label for="email" style="color: floralwhite;">ENTER EMAIL-ID:</label>
+            <input type="text" name="email" id="email" STYLE="color: #000000; font-family:cursive; font-size: 18px; background-color: #AAAAAA;"
+            required  >
+        </section>
+        <br>
+        <section class="password"  style=text-align:center>
+            <label for="password" style="color: floralwhite;">ENTER PASSWORD:</label>
+            <input type="password" name="password" id="password"minlength="8" STYLE="color: #000000 ; font-family:cursive;font-variant-caps: all-small-caps; font-weight: bold; font-size: 18
+                px; background-color: #AAAAAA;"
+             maxlength="10" required  >
+        </section>
+        <br>
+    </fieldset>
+    <br>
+    <fieldset>
+        <br>
+        <legend style="color: floralwhite; text-align: center;">COURSE AND SUBJECT DETAILS</legend>
+        <section class="COURSE" style=text-align:center>
+        <label for="COURSE" style="color: floralwhite;">ENTER COURSE</label>
+        <select id="COURSE" STYLE="color: #000000; font-family:cursive;font-variant-caps: all-small-caps; font-weight: bold; font-size: 18
+
+        px; background-color: #AAAAAA;">
+            <option value="Maths(hons)" STYLE="color: #000000; font-family:cursive;font-variant-caps: all-small-caps; font-weight: bold; font-size: 18
+            px; background-color: #AAAAAA;">Maths(hons)</option>
+            <option value="English(hons)" STYLE="color: #000000; font-family:cursive;font-variant-caps: all-small-caps; font-weight: bold; font-size: 18
+            px; background-color: #AAAAAA;">English(hons)</option>
+            <option value="Computer Science(hons)" STYLE="color: #000000; font-family:cursive;font-variant-caps: all-small-caps; font-weight: bold; font-size: 18
+            px; background-color: #AAAAAA;">Computer Science(hons)</option>
+            <option value="Physics(hons)" STYLE="color: #000000; font-family:cursive;font-variant-caps: all-small-caps; font-weight: bold; font-size: 18
+
+            px; background-color: #AAAAAA;">Physics(hons)</option>
+            <option value="Chemistry(hons)" STYLE="color: #000000; font-family:cursive;font-variant-caps: all-small-caps; font-weight: bold; font-size: 18
+
+            px; background-color: #AAAAAA;" >Chemistry(hons)</option>
+        </select>
+    </section>
+    <br>
+    <section class="Subjects" style=text-align:center>
+        <span style="color: floralwhite;"> CHOOSE SUBJECTS</span><br><br>
+        <label for="maths" style="color: floralwhite;">MATHS</label>
+        <input STYLE="color: #000000; font-family:cursive;font-variant-caps: all-small-caps; font-weight: bold; font-size: 18
+
+        px; background-color: #AAAAAA;" type="checkbox" name="subjects" id="maths">
+        <t><t>
+        <label for="Computers" style="color: floralwhite;">COMPUTERS</label>
+        <input STYLE="color: #000000; font-family:cursive;font-variant-caps: all-small-caps; font-weight: bold; font-size: 18
+
+        px; background-color: #AAAAAA;"type="checkbox" name="subjects" id="Computers">
+        <t><t>
+        <label for="english" style="color: floralwhite;">ENGLISH</label>
+        <input STYLE="color: #000000; font-family:cursive;font-variant-caps: all-small-caps; font-weight: bold; font-size: 18
+
+        px; background-color: #AAAAAA;" type="checkbox" name="subjects" id="english">
+        <t><t>
+        <label for="german" style="color: floralwhite;">GERMAN</label>
+        <input STYLE="color: #000000; font-family:cursive;font-variant-caps: all-small-caps; font-weight: bold; font-size: 18
+
+        px; background-color: #AAAAAA;" type="checkbox" name="subjects" id="german">
+        <t><t>
+    </section>
+    <br>
+    <section class="adm" style=text-align:center>
+        <span style="color: floralwhite;">Are you a new admission?</span>
+        <br><br>
+        <label for="yes" style="color: floralwhite;">YES</label>
+        <input STYLE="color: #000000; font-family:cursive;font-variant-caps: all-small-caps; font-weight: bold; font-size: 18
+
+        px; background-color: #AAAAAA;" type="radio" name="yes" id="yes">
+        <t>
+        <label for="No" style="color: floralwhite;">NO</label>
+        <input STYLE="color: #000000; font-family:cursive;font-variant-caps: all-small-caps; font-weight: bold; font-size: 18
+
+        px; background-color: #AAAAAA;" type="radio" name="no" id="no">
+    </section>
+    <br>
+    <section  class="College" style=text-align:center>
+        <label for="College" style="color: floralwhite">COLLEGE PREFERENCE</label>
+        <input STYLE="color: #000000; font-family:cursive;font-variant-caps: all-small-caps; font-weight: bold; font-size: 18
+
+        px; background-color: #AAAAAA;" type="text" id="College" list="college" name="college">
+        <datalist id="college">
+            <option value="Stephens" STYLE="color: #000000; font-family:cursive;font-variant-caps: all-small-caps; font-weight: bold; font-size: 18
+            px; background-color: #AAAAAA;"></option>
+            <option value="Daulat Ram" STYLE="color: #000000; font-family:cursive;font-variant-caps: all-small-caps; font-weight: bold; font-size: 18
+            px; background-color: #AAAAAA;"></option>
+            <option value="Kirori Mal" STYLE="color: #000000; font-family:cursive;font-variant-caps: all-small-caps; font-weight: bold; font-size: 18
+            px; background-color: #AAAAAA;"></option>
+            <option value="Law Faculty" STYLE="color: #000000; font-family:cursive;font-variant-caps: all-small-caps; font-weight: bold; font-size: 18
+            px; background-color: #AAAAAA;"></option>
+            <option value="Hansraj" STYLE="color: #000000; font-family:cursive;font-variant-caps: all-small-caps; font-weight: bold; font-size: 18
+            px; background-color: #AAAAAA;"></option>
+        </datalist>
+    </section>
+    <br>
+</fieldset>
+<br>
+<fieldset>
+    <legend style="color: floralwhite; text-align: center">FEEDBACK AND OTHER QUERIES</legend>
+    <br>
+        <section class="feedback" style=text-align:center>    
+            <label style="color: floralwhite" for="feedback">FEEDBACK: </label>
+            <br>
+            <textarea  STYLE="color: #000000; font-family:cursive;font-variant-caps: all-small-caps; font-weight: bold; font-size: 18
+            px; background-color: #AAAAAA;" id="feedback" name="feedback" rows="5" cols="30">
+            </textarea>
+        </section>
+        <section  style="text-align: right">
+            <input type="submit" value="submit">
+        </section>
+        <br>
+        </fieldset>
+        </form>
+    </body>
+</html>
